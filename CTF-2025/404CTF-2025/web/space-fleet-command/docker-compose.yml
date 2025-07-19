@@ -1,0 +1,23 @@
+services:
+  web:
+    build:
+      context: ./web
+    container_name: web
+    environment:
+      - PORT=3001
+      - FLAG=404CTF{deadbeefcafebabe}
+      - CHALLENGE_HOST=localhost
+    expose:
+      - "3001"
+    ports:
+      - "3001:3001"
+
+  nginx:
+    build:
+      context: ./nginx
+    container_name: nginx
+    environment:
+      - BACKEND_HOST=localhost
+      - BACKEND_PORT=3001
+    depends_on:
+      - web
