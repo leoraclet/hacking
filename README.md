@@ -3,9 +3,9 @@
 
 <div align="center">
 
-![license](https://img.shields.io/github/license/leoraclet/hacking-list)
-![language](https://img.shields.io/github/languages/top/leoraclet/hacking-list)
-![lastcommit](https://img.shields.io/github/last-commit/leoraclet/hacking-list)
+![license](https://img.shields.io/github/license/leoraclet/hacking)
+![language](https://img.shields.io/github/languages/top/leoraclet/hacking)
+![lastcommit](https://img.shields.io/github/last-commit/leoraclet/hacking)
 
 </div>
 
